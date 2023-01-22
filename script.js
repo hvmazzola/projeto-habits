@@ -1,4 +1,4 @@
-const form = document.querySelector("#form-habits")
+const form = document.querySelector("form")
 const nlwSetup = new NLWSetup(form)
 const button = document.querySelector("header button")
 
@@ -7,7 +7,7 @@ form.addEventListener("change", save)
 
 function add() {
   const today = new Date().toLocaleDateString("pt-br").slice(0, -5)
-  const dayExists = nlw.dayExists(today)
+  const dayExists = nlwSetup.dayExists(today)
 
   if (dayExists) {
     alert("O dia já foi adicionado ❌")
@@ -15,7 +15,7 @@ function add() {
   }
 
   alert("Dia adicionado com sucesso ✅")
-  nlwSetup.addDay("01/01")
+  nlwSetup.addDay(today)
 }
 
 function save() {
