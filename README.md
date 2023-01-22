@@ -29,7 +29,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para ajudar a rastrear os hábitos.
 
-- [Visite o projeto online](https://github.com/hvmazzola/projeto-habits)
+- [Visite o projeto no Github](https://github.com/hvmazzola/projeto-habits)
+- [Visite o projeto online](https://hvmazzola.github.io/projeto-habits)
 
 ## 🔖 Layout
 
